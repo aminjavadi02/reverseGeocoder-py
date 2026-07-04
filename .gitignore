@@ -1,0 +1,7 @@
+.venv
+__pycache__/
+*py[cod]
+.codex
+.agents
+benchmark.py
+PACKAGING.md
