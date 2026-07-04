@@ -9,7 +9,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
-CACHE = ROOT / "reverse_geocoder" / "app" / "data" / "reverse_geocoder_cache.pkl"
+CACHE = ROOT / "reverseGeocoder" / "app" / "data" / "reverse_geocoder_cache.pkl"
 COUNTRIES = DATA / "ne_10m_admin_0_countries.zip"
 CITIES = DATA / "ne_10m_populated_places_simple.zip"
 MARINE = DATA / "ne_10m_geography_marine_polys.zip"

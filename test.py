@@ -1,4 +1,4 @@
-from reverseGeocoder.app.reverse_geocoder import get
+from offlineRevGeocoder.app.reverseGeocoder import get
 
 
 def check():

@@ -9,7 +9,13 @@ database, and no paid reverse geocoding subscription.
 
 ## Installation And Usage
 
-clone the project:
+Install from PyPI:
+
+```bash
+pip install offlineRevGeocoder
+```
+
+Or clone the project:
 
 ```bash
 git clone https://github.com/aminjavadi02/reverseGeocoder-py.git
@@ -20,7 +26,7 @@ python3 test.py
 Use it directly from Python:
 
 ```python
-from reverse_geocoder import get
+from offlineRevGeocoder import get
 
 place = get(35.6892, 51.3890)
 
